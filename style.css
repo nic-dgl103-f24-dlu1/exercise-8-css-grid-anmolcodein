@@ -7,6 +7,12 @@ body{
     box-sizing: border-box;
 }
 .container{
-    width:1170px;
+    width: 80%;
     margin: 0 auto;
 }
+/*------------------logo------------*/
+.logo{
+    font-family: "Dancing Script", serif;
+}
+/*------------Navbar-----------------*/
+
