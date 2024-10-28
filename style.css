@@ -1,22 +1,20 @@
 /*-------- GLOBAL STYLES ---------*/
-
-body{
-    margin:0;
-    padding:0;
-    font-family: "Ubuntu", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+body{
+    width:100%;
+    font-family: "Ubuntu", sans-serif;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr; /* Three equal-height rows */
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: 1fr auto 1fr; /* Three equal-height rows */
+    grid-template-columns: 70% 30%; /* Two equal-width columns */
     gap: 2%; /* 2% gap between grid items */
     grid-template-areas:
-        "header header"
-        "aside main"
-        "footer footer";
-}
-.container{
-    width: 80%;
-    margin: 0 auto;
+        "header header header"
+        "aside main main"
+        "footer footer footer";
 }
 /*-------------header----------------*/
 .header{
@@ -24,19 +22,18 @@ body{
     background-color: #767522;
     color:whitesmoke;
 }
-.header .container{
+.header{
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-around;
     align-items: center;
     gap:20%;
-    padding:10px 0;
+    padding:15px 0;
 }
 /*------------------logo------------*/
 .logo{
     font-family: "Dancing Script", serif;
-    border: 1px solid whitesmoke;
-    width: 6%;
-    height: 8%;
+    border: 1px solid whitesmoke;   
+    padding: 10px;
     border-radius: 50%;
     text-align: center;
 }
@@ -54,5 +51,41 @@ body{
     text-decoration: none;
 }
 /*--------------Hero--------------------*/
+.hero{  
+   /* background-image: url("Images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 450px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 5%;
+    padding-left: 5%;
+}
+.hero h1{
+    color:#767522;
+    padding-bottom: 5%;
+}
+.hero p{
+    color:#7a7c7d;
+    padding-bottom: 5%;
+}
+.hero button{
+    padding: 10px 20px;
+    background-color:#767522;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.hero_image{
+    height:300px;
+    width:500px;
+}
+/*-------------Aside----------------------*/
+.aside{
+    background-color: #767522;
+}
 
 
