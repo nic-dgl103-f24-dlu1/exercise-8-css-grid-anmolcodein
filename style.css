@@ -9,14 +9,48 @@ body{
     grid-template-rows: 1fr 1fr 1fr; /* Three equal-height rows */
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     gap: 2%; /* 2% gap between grid items */
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
 }
 .container{
     width: 80%;
     margin: 0 auto;
 }
+/*-------------header----------------*/
+.header{
+    grid-area: header;
+    background-color: #767522;
+    color:whitesmoke;
+}
+.header .container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap:20%;
+    padding:10px 0;
+}
 /*------------------logo------------*/
 .logo{
     font-family: "Dancing Script", serif;
+    border: 1px solid whitesmoke;
+    width: 6%;
+    height: 8%;
+    border-radius: 50%;
+    text-align: center;
 }
 /*------------Navbar-----------------*/
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap:5%;
+    align-items: center;
+}
+.nav-links li a{
+    color: whitesmoke;
+    padding:10px 15px;
+    text-decoration: none;
+}
 
