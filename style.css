@@ -3,7 +3,7 @@
 body{
     margin:0;
     padding:0;
-    font-family: "Poppins", serif;
+    font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr; /* Three equal-height rows */
