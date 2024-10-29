@@ -247,8 +247,8 @@ body {
 /*-----------------footer-------------------*/
 .footer {
     grid-area: footer;
-    background-color: #767522;
-    color: whitesmoke;
+    background-color: #FFFFFF;
+    color: #767522;
     padding: 2% 10%;
     font-size: 0.9rem;
 }
@@ -265,7 +265,7 @@ body {
     font-size: 2rem;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #767522;
 }
 
 
@@ -286,7 +286,7 @@ body {
 
 .footer-links ul li a,
 .footer-social ul li a {
-    color: whitesmoke;
+    color: #767522;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -299,5 +299,5 @@ body {
     text-align: center;
     padding-top: 20px;
     font-size: 0.8rem;
-    color: #d1d1b2;
+    color: #7a7c7d;
 }
