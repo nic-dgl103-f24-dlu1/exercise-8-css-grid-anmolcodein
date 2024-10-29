@@ -166,8 +166,26 @@ body{
     background-repeat: no-repeat;
     background-position:bottom;
 }
+.card_5{
+    background-image: url("images/card_5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
 .card_7{
     background-image: url("images/card_7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.card_10{
+    background-image: url("images/card_10.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.card_12{
+    background-image: url("images/card_12.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
