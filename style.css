@@ -67,6 +67,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
+    grid-area: hero;
     height: 450px;
     display: flex;
     justify-content: flex-end;
@@ -101,6 +102,7 @@ body {
 
 /*-------------Aside----------------------*/
 .aside {
+    grid-area: aside;
     background-color: #767522;
     background-image: url("Images/171329777_10675747.png");
     background-position: right;
