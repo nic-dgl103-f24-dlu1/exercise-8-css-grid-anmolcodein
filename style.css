@@ -238,3 +238,24 @@ body {
     width: 70%;
     border: 1px solid #FFFFFF;
 }
+/*-----------------footer-------------------*/
+.footer {
+    grid-area: footer;
+    background-color: #767522;
+    color: whitesmoke;
+    padding: 2% 10%;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.footer-logo h2 {
+    font-family: "Dancing Script", serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
