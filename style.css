@@ -160,4 +160,16 @@ body{
     border: 1px solid #FFFFFF;
     padding: 35% 10%;
 }
+.card_4{
+    background-image: url("images/card_4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+.card_7{
+    background-image: url("images/card_7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
 
