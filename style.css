@@ -68,7 +68,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; */
     grid-area: hero;
-    height: 450px;
+    height: 90%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
