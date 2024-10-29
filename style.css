@@ -38,10 +38,12 @@ body {
 /*------------------logo------------*/
 .logo {
     font-family: "Dancing Script", serif;
-    border: 1px solid whitesmoke;
-    padding: 10px;
-    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    padding: 1%;
     text-align: center;
+}
+.logo h2{
+    font-size: 1.8rem;
 }
 
 /*------------Navbar-----------------*/
@@ -104,7 +106,7 @@ body {
     color: #FFFFFF;
     padding: 10% 5%;
     border-radius: 10px;
-    margin-right: 5%;
+    margin: 0 10%;
 }
 
 .aside h2 {
