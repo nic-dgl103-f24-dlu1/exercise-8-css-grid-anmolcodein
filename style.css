@@ -58,6 +58,7 @@ body {
     color: whitesmoke;
     padding: 10px 15px;
     text-decoration: none;
+    font-size: 16px;
 }
 
 /*--------------Hero--------------------*/
@@ -76,16 +77,16 @@ body {
 
 .hero h1 {
     color: #767522;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 .hero p {
     color: #7a7c7d;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 .hero button {
-    padding: 10px 20px;
+    padding: 3% 10%;
     background-color: #767522;
     color: #FFFFFF;
     border: none;
@@ -143,8 +144,7 @@ body {
 
 /*-------------------main-------------------------*/
 .main {
-    grid-row: 3/4;
-    grid-column: 1/2;
+    grid-area: main;
 }
 
 .main .services {
@@ -153,12 +153,11 @@ body {
     grid-template-rows: repeat(3, 1fr);
     justify-content: space-around;
     gap: 5px;
-    margin-left: 20%;
-    margin-top: 10%;
+    margin: 5% 10%;
 }
 
 .main .services .card {
-    height: 13em;
+    height: 16em;
     background-color: #767522;
 }
 
@@ -170,7 +169,7 @@ body {
     align-items: center;
     text-align: center;
 }
-
+/*for the border along h3*/
 .card_heading .card-content {
     border: 1px solid #FFFFFF;
     padding: 20%;
@@ -226,4 +225,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+/*---------------about----------------------*/
+.about{
+    background-color: #767522;
 }
