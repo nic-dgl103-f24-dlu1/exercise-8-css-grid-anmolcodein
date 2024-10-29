@@ -119,6 +119,7 @@ body{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+/*-------------------main-------------------------*/
 .main{
     grid-row: 3/4;
     grid-column: 1/2;
@@ -144,10 +145,12 @@ body{
     align-items: center;
     text-align: center;
 }
-.card_1 h3{
+.card_heading h3{
     font-size: 1.5rem;
     border: 1px solid #FFFFFF;
-    padding: 30% 10%;
+}
+.card_1 h3{
+    padding:30% 11%;
 }
 .card_2{
     background-image: url("images/card_2.png");
