@@ -11,7 +11,6 @@ body {
     grid-template-rows: 1fr auto auto 1fr;
     /* Three equal-height rows */
     grid-template-columns: 3fr 1fr;
-    /* Two equal-width columns */
     gap: 2%;
     /* 2% gap between grid items */
     grid-template-areas:
@@ -63,17 +62,16 @@ body {
 
 /*--------------Hero--------------------*/
 .hero {
-    /* background-image: url("Images/hero.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background-image: url("Images/image_1.png");
+    background-position: right;
+    background-repeat: no-repeat;   
     grid-area: hero;
     height: 90%;
+    padding-left: 10%;
+    margin-left: 10%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    gap: 5%;
-    padding-left: 5%;
 }
 
 .hero h1 {
@@ -95,11 +93,6 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.hero_image {
-    height: 300px;
-    width: 500px;
-}
-
 /*-------------Aside----------------------*/
 .aside {
     grid-area: aside;
@@ -111,6 +104,7 @@ body {
     color: #FFFFFF;
     padding: 10% 5%;
     border-radius: 10px;
+    margin-right: 5%;
 }
 
 .aside h2 {
