@@ -137,22 +137,27 @@ body{
     background-color: #767522;
 }
 /*---------------------------Card-----------------*/
-.card_1{
+.card_heading{
     color: #FFFFFF;
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .card_1 h3{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     border: 1px solid #FFFFFF;
-    padding: 35% 5%;
+    padding: 30% 10%;
 }
 .card_2{
-    background-image: url("images/image_3.png");
+    background-image: url("images/card_2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.card_3 h3{
+    font-size: 1.5rem;
+    border: 1px solid #FFFFFF;
+    padding: 35% 10%;
+}
 
