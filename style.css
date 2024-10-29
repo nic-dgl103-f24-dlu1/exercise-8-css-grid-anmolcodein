@@ -42,7 +42,8 @@ body {
     padding: 1%;
     text-align: center;
 }
-.logo h2{
+
+.logo h2 {
     font-size: 1.8rem;
 }
 
@@ -66,9 +67,9 @@ body {
 .hero {
     background-image: url("Images/image_1.png");
     background-position: right;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
     grid-area: hero;
-    height: 90%;
+   
     padding-left: 10%;
     margin-left: 10%;
     display: flex;
@@ -167,6 +168,7 @@ body {
     align-items: center;
     text-align: center;
 }
+
 /*for the border along h3*/
 .card_heading .card-content {
     border: 1px solid #FFFFFF;
@@ -224,20 +226,23 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 /*---------------about----------------------*/
-.about{
+.about {
     background-color: #767522;
-    color:#FFFFFF;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
-    gap:10%;
+    gap: 5%;
     align-items: baseline;
     padding: 5% 20%;
 }
-.about hr{
+
+.about hr {
     width: 70%;
     border: 1px solid #FFFFFF;
 }
+
 /*-----------------footer-------------------*/
 .footer {
     grid-area: footer;
@@ -258,4 +263,40 @@ body {
     font-family: "Dancing Script", serif;
     font-size: 2rem;
     margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+
+.footer h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-contact p {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #d1d1b2;
 }
