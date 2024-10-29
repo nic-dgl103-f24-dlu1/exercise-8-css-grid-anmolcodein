@@ -119,6 +119,21 @@ body{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.main{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.main .services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: space-around;
+    gap:5px;
+    margin-left: 20%;
+}
+.main .services .card{
+    height: 15em;
+    background-color: #767522;
+}
 
 
