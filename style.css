@@ -229,4 +229,14 @@ body {
 /*---------------about----------------------*/
 .about{
     background-color: #767522;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap:10%;
+    align-items: baseline;
+    padding: 5% 20%;
+}
+.about hr{
+    width: 70%;
+    border: 1px solid #FFFFFF;
 }
