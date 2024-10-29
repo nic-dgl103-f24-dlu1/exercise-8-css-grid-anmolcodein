@@ -4,87 +4,102 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Ubuntu", sans-serif;
     display: grid;
-    grid-template-rows: 1fr auto auto 1fr; /* Three equal-height rows */
-    grid-template-columns: 3fr 1fr; /* Two equal-width columns */
-    gap: 2%; /* 2% gap between grid items */
+    grid-template-rows: 1fr auto auto 1fr;
+    /* Three equal-height rows */
+    grid-template-columns: 3fr 1fr;
+    /* Two equal-width columns */
+    gap: 2%;
+    /* 2% gap between grid items */
     grid-template-areas:
         "header header header"
         "hero hero aside"
         "main main main"
         "footer footer footer";
 }
+
 /*-------------header----------------*/
-.header{
+.header {
     grid-area: header;
     background-color: #767522;
-    color:whitesmoke;
+    color: whitesmoke;
 }
-.header{
+
+.header {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    gap:20%;
-    padding:15px 0;
+    gap: 20%;
+    padding: 15px 0;
 }
+
 /*------------------logo------------*/
-.logo{
+.logo {
     font-family: "Dancing Script", serif;
-    border: 1px solid whitesmoke;   
+    border: 1px solid whitesmoke;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
 }
+
 /*------------Navbar-----------------*/
-.nav-links{
+.nav-links {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    gap:5%;
+    gap: 5%;
     align-items: center;
 }
-.nav-links li a{
+
+.nav-links li a {
     color: whitesmoke;
-    padding:10px 15px;
+    padding: 10px 15px;
     text-decoration: none;
 }
+
 /*--------------Hero--------------------*/
-.hero{  
-   /* background-image: url("Images/hero.png");
+.hero {
+    /* background-image: url("Images/hero.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
     height: 450px;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
     gap: 5%;
     padding-left: 5%;
 }
-.hero h1{
-    color:#767522;
+
+.hero h1 {
+    color: #767522;
     padding-bottom: 5%;
 }
-.hero p{
-    color:#7a7c7d;
+
+.hero p {
+    color: #7a7c7d;
     padding-bottom: 5%;
 }
-.hero button{
+
+.hero button {
     padding: 10px 20px;
-    background-color:#767522;
-    color:#FFFFFF;
+    background-color: #767522;
+    color: #FFFFFF;
     border: none;
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.hero_image{
-    height:300px;
-    width:500px;
+
+.hero_image {
+    height: 300px;
+    width: 500px;
 }
+
 /*-------------Aside----------------------*/
-.aside{
+.aside {
     background-color: #767522;
     background-image: url("Images/171329777_10675747.png");
     background-position: right;
@@ -94,103 +109,121 @@ body{
     padding: 10% 5%;
     border-radius: 10px;
 }
-.aside h2{
+
+.aside h2 {
     font-family: "Dancing Script", serif;
     font-size: 40px;
 }
-.aside p{
-    margin:5%;
+
+.aside p {
+    margin: 5%;
 }
-.aside ul{
+
+.aside ul {
     list-style: none;
 }
-.aside ul li{
-    margin:5%;
+
+.aside ul li {
+    margin: 5%;
 }
-.aside ul li a{
+
+.aside ul li a {
     text-decoration: none;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.aside button{
-    margin:5%;
+
+.aside button {
+    margin: 5%;
     padding: 3% 10%;
-    border:none;
+    border: none;
     font-size: 16px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 /*-------------------main-------------------------*/
-.main{
+.main {
     grid-row: 3/4;
     grid-column: 1/2;
 }
-.main .services{
+
+.main .services {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     justify-content: space-around;
-    gap:5px;
+    gap: 5px;
     margin-left: 20%;
     margin-top: 10%;
 }
-.main .services .card{
+
+.main .services .card {
     height: 13em;
     background-color: #767522;
 }
+
 /*---------------------------Card-----------------*/
-.card_heading{
+.card_heading {
     color: #FFFFFF;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.card_heading h3{
-    font-size: 1.5rem;
+
+.card_heading .card-content {
     border: 1px solid #FFFFFF;
+    padding: 20%;
+    box-sizing: border-box;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card_1 h3{
-    padding:30% 11%;
+
+.card_heading h3 {
+    font-size: 1.5rem;
+    margin: 0;
 }
-.card_2{
+
+.card_2 {
     background-image: url("images/card_2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card_3 h3{
-    font-size: 1.5rem;
-    border: 1px solid #FFFFFF;
-    padding: 35% 10%;
-}
-.card_4{
+
+.card_4 {
     background-image: url("images/card_4.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
 }
-.card_5{
+
+.card_5 {
     background-image: url("images/card_5.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
-.card_7{
+
+.card_7 {
     background-image: url("images/card_7.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
-.card_10{
+
+.card_10 {
     background-image: url("images/card_10.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
-.card_12{
+
+.card_12 {
     background-image: url("images/card_12.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
-
